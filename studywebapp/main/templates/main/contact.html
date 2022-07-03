@@ -1,0 +1,12 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Контакты{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Контакты</h1>
+        <p>Связаться со мной можно в мессенджерах по номеру телефона: +79026384952</p>
+        <p>А также по электронной почте: wwwfox11@mail.ru</p>
+        <button class="btn btn-info"><a href="{% url 'about' %}"> На страницу обо мне</a></button>
+    </div>
+{% endblock %}
