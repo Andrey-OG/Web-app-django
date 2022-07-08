@@ -7,7 +7,7 @@ aside {
     background: #303030;
     width: 20%;
     padding: 2.5%;
-    height: 100vh;
+    height: 150vh;
     color: #000000;
     border-right: 5px solid #000000;
 }
@@ -51,10 +51,18 @@ aside ul li:hover, aside ul a:hover {
 main .features {
     float: left;
     color: #fff;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     width: 75%;
 }
 
 main .features h1 {font-size: 50px;}
 main .features p {max-width: 400px; margin: 20px auto;}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
